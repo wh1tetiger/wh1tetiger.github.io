@@ -42,7 +42,7 @@ const Works = (props) => {
         link="https://wh1tetiger.github.io/shoplist/"
         gitHub="https://github.com/wh1tetiger/shoplist"
         buttonText="View App"
-        description="Adaptive web application made with React. Why is it smart? Try to add items like 'paint', 'screws' or 'cement'. Depending on the input, application suggests additional input fields."
+        description="Responsive web application made with React. Why is it smart? Try to add items like 'paint', 'screws' or 'cement'. Depending on the input, application suggests additional input fields."
         tags={[
           "React",
           "HTML5",
@@ -58,7 +58,7 @@ const Works = (props) => {
         screenshot={DevZoneImage}
         link="https://devzone.uber.space/"
         buttonText="Visit Page"
-        description="Adaptive Wordpress template for a landing website, made using Bootstrap."
+        description="Responsive Wordpress template for a landing website, made using Bootstrap."
         tags={["WordPress", "PHP", "HTML5", "CSS", "Bootstrap"]}
       />
       <PortfolioCard
@@ -70,7 +70,7 @@ const Works = (props) => {
         tags={[
           "JavaScript",
           "HTML5",
-          "CSS3",
+          "CSS",
           "Node.js",
           "Twitch API",
           "Socket.io",
@@ -79,7 +79,7 @@ const Works = (props) => {
       <PortfolioCard
         title="Portfolio Page"
         screenshot={PortfolioScr}
-        description="Adaptive web application, built with React and Material-UI frameworks."
+        description="Responsive web application, built with React and Material-UI frameworks."
         gitHub="https://github.com/wh1tetiger/shoplist"
         tags={["React", "JavaScript", "Material-UI", "HTML", "CSS", "Grid"]}
       />

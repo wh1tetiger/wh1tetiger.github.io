@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "0.5rem 1rem 0",
     backgroundImage: `url(${Background})`,
     backgroundRepeat: "repeat",
+    backgroundColor: "#000",
     position: "fixed",
     top: 0,
   },

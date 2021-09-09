@@ -68,6 +68,11 @@ function PortfolioCard(props) {
           <Button href={props.link} size="small" color="primary">
             {props.buttonText}
           </Button>
+          {props.gitHub && (
+            <Button href={props.gitHub} size="small" color="primary">
+              Git Repo
+            </Button>
+          )}
         </CardActions>
       </Card>
     </Grid>
